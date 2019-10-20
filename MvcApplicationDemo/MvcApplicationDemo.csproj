@@ -199,6 +199,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\Music1Controller.cs" />
+    <Compile Include="Controllers\Music2Controller.cs" />
     <Compile Include="Controllers\MusicController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -271,6 +272,8 @@
     <Content Include="Views\Music\Index.cshtml" />
     <Content Include="Views\Music1\Index.cshtml" />
     <Content Include="Views\Music1\store.cshtml" />
+    <Content Include="Views\Music2\Index.cshtml" />
+    <Content Include="Views\Music2\Show.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
