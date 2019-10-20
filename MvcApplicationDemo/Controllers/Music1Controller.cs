@@ -14,5 +14,11 @@ namespace MvcApplicationDemo.Controllers
             return View();
         }
 
+        [HttpGet]
+        public string store1()
+        {
+            return "you are in store";
+        }
+
     }
 }
